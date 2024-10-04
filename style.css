@@ -17,3 +17,28 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgba(96, 112, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.intro{
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    size: 40px;
+    line-height: 52px;
+    color: rgba(23, 43, 77, 1);
+
+}
+.bio{
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    size: 16px;
+    line-height: 24px;
+    color: rgba(52, 69, 99, 1);
+}
