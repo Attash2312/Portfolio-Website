@@ -8,6 +8,7 @@
 body{
     width: 375px;
     justify-content: center;
+    background-color: lightgray ;
 }
 
 .header {
@@ -72,11 +73,16 @@ color: #7F8CFF;
     top: 92px;
     gap: 12px;
     opacity: 0px;
+    background-color: #fff;
+    border: 0px solid #000;
+    border-radius: 0px,0px, 20px, 20px;
    
 }
 
 .projects{
-    margin-top: 120px;
+    background-color: #fff;
+    margin-top: 0px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -151,7 +157,47 @@ height: 48px;
 border-radius: 8px;
 border-color: #6070FF
 }
+
 .about-section{
-    padding-top: 20px;
+    background-color: #fff;
+    margin-top: 0px;
+    padding-top: 50px;
    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.languages{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 80px;
+}
+.languages h3{
+    width: 40px;;
+    height: 40px;
+
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+    
+}
+.languages .arrow-down{
+    transform: rotate(90deg);
+    font-size: 20px;
+    margin-left: -10px;
+    margin-top: 5px;
+    width: 4px;
+height: 8px;
+top: 8px;
+left: 5px;
+color: #5E6C84;
+
 }
