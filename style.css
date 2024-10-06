@@ -1,11 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    width: 375px;
+
 }
 
 body{
-    background-color: rgb(241, 241, 241);
+    background: #fff;
     width: 375px;
     justify-content: center;
 }
@@ -30,16 +30,51 @@ body{
 
 .intro{
     font-family: poppins,sans-serif;
-    font-weight: 700;
-    size: 40px;
-    line-height: 52px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
     color: rgba(23, 43, 77, 1);
 
 }
+
+.headline .content{
+    margin-top: -520px;
+    padding: 25px;
+
+}
+.headline .content img{
+   padding-top: 10px;
+}
+
 .bio{
+    margin-top: 15px;
     font-family: poppins,sans-serif;
     font-weight: 400;
-    size: 16px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 30px;
     color: rgba(52, 69, 99, 1);
+}
+
+.connect{
+    width: 117;
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #7F8CFF;
+
+
+}
+
+.bkgd-img{
+    width: (375px)px;
+    height: Hug (604px)px;
+    top: 92px;
+    gap: 12px;
+    opacity: 0px;
+   
 }
