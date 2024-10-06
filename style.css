@@ -1,11 +1,11 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: poppins,sans-serif;
 
 }
 
 body{
-    background: #fff;
     width: 375px;
     justify-content: center;
 }
@@ -23,13 +23,11 @@ body{
     margin-left: 20px;
     font-size: 18px;
     color: rgba(96, 112, 255, 1);
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 20px;
 }
 
 .intro{
-    font-family: poppins,sans-serif;
     font-size: 40px;
     font-weight: 800;
     line-height: 50px;
@@ -43,12 +41,11 @@ body{
 
 }
 .headline .content img{
-   padding-top: 10px;
+   padding: 10px;
 }
 
 .bio{
     margin-top: 15px;
-    font-family: poppins,sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -60,7 +57,6 @@ body{
     height: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
-font-family: Poppins;
 font-size: 16px;
 font-weight: 500;
 line-height: 24px;
@@ -77,4 +73,81 @@ color: #7F8CFF;
     gap: 12px;
     opacity: 0px;
    
+}
+
+.projects{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects h2 {
+    color: #172B4D;
+    padding-top: 10px;
+}
+
+.exp{
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    gap: 16px;
+}
+
+.exp ul {
+    color: #7A869A;
+font-size: 13px;
+font-weight: 600;
+line-height: 16px;
+padding-left: 15px;
+display: flex;
+justify-content: space-between;
+gap: 30px;
+
+}
+
+.projects p{
+width: 265px;
+padding-top: 15px;
+height: 76px;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.langs{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+}
+
+.langs button{
+    width: 80px;
+    height: 20px;
+    padding: 0px;
+    margin: 10px;
+    background: #EBEBFF;
+    border-radius: 8px;
+    border-color: #EBEBFF;
+    color: #6070FF;
+}
+
+.see-pr{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.see-pr button{
+    color: #396DF2;
+font-size: 17px;
+font-weight: 500;
+gap: 10px;
+width: 126px;
+height: 48px;
+border-radius: 8px;
+border-color: #6070FF
 }
